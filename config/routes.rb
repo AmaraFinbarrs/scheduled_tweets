@@ -4,7 +4,7 @@
 Rails.application.routes.draw do
   root "about#index"
 
-  get '/about', to: 'about#index'
+  get '/about-us', to: 'about#index', as: :about
   get '/home', to: 'main#index'
 
 
